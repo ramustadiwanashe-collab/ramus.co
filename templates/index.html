@@ -1,30 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ShadowWalker Tech@Ramus</title>
+    <title>ShadowWalker Tech</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        /* Header / Brand Bar */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #00ffcc;
+        }
+
+        .slogan {
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+        /* Main Section */
+        .main {
+            margin-top: 100px;
+        }
+
+        .main h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .main p {
+            font-size: 18px;
+            color: #dddddd;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            font-size: 20px;
+            padding: 15px 35px;
+            background-color: #00ffcc;
+            color: black;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: white;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 120px;
+            padding: 20px;
+            background-color: rgba(0,0,0,0.4);
+            font-size: 14px;
+            color: #aaaaaa;
+        }
+    </style>
 </head>
 
-<body style="background-color:#e6ffe6; text-align:center;">
+<body>
 
-    <h1 style="font-size:40px;">
-        Welcome to ShadowWalker Tech
-    </h1>
+    <!-- Brand Header -->
+    <div class="header">
+        <div>
+            <div class="logo">ShadowWalker Tech</div>
+            <div class="slogan">Innovating AI • Securing the Future</div>
+        </div>
+    </div>
 
-    <br><br>
+    <!-- Main Content -->
+    <div class="main">
+        <h1>Welcome to the Future of Technology</h1>
+        <p>Building advanced AI systems and cyber security solutions for tomorrow.</p>
 
-    <a href="/login">
-        <button style="font-size:25px; padding:15px 40px;">
-            Login
-        </button>
-    </a>
+        <a href="/login" class="btn">Login</a>
+        <a href="/register" class="btn">Create Account</a>
+        <a href="/ai" class="btn">Explore AI Hub</a>
+    </div>
 
-    <br><br>
-
-    <a href="/register">
-        <button style="font-size:25px; padding:15px 40px;">
-            Create Account
-        </button>
-    </a>
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 ShadowWalker Tech | Built by Ramus Tadiwanashe
+    </div>
 
 </body>
 </html>
